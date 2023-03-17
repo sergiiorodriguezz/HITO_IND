@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="Ejercicio_1.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio_2.xsl"?>-->
+<?xml-stylesheet type="text/xsl" href="Ejercicio_3.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio_4.xsl"?>
+<?xml-stylesheet type="text/xsl" href="css/style.css"?>
+<pedidos>
+  <anios>
+    <anio2021 id="2021">
+      <trimestres>
+        <!--TRIMESTRE 1-->
+        <trimestre1 id="1">
+          <pedidos>
+              <!--1-->
+              <pedido id="1">
+                <cliente id="1">
+                  <nombre>Daniel</nombre>
+                  <apellidos>Perea Barrios</apellidos>
+                  <telefono>688594944</telefono>
+                  <dirección>
+                    <calle>Calle Arroyo de los Combos</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28944</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>daniel.perea@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>001</numero_pedido>
+                  <fecha_compra>5/02/2021</fecha_compra>
+                  <fecha_entrega>8/02/2021</fecha_entrega>
+                  <total_factura>78€</total_factura>
+                  <producto>
+                    <nombre>Botas de futbol</nombre>
+                    <referencia>BOT-001</referencia>
+                    <precio>39€</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--2-->
+              <pedido>
+                <cliente>
+                  <nombre>Raul</nombre>
+                  <apellidos>Rodelgo Vazquez</apellidos>
+                  <telefono>688554433</telefono>
+                  <dirección>
+                    <calle>Calle Uvas</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28940</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>raul.rodelgo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>002</numero_pedido>
+                  <fecha_compra>10/03/2021</fecha_compra>
+                  <fecha_entrega>12/03/2021</fecha_entrega>
+                  <total_factura>90€</total_factura>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>ZAP-001</referencia>
+                    <precio>90€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--3-->
+              <pedido>
+                <cliente>
+                  <nombre>Rodrigo</nombre>
+                  <apellidos>Pozo Sanchez</apellidos>
+                  <telefono>639494929</telefono>
+                  <dirección>
+                    <calle>Calle Huerto</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28956</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>rodrigo.pozo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>003</numero_pedido>
+                  <fecha_compra>20/05/2021</fecha_compra>
+                  <fecha_entrega>22/05/2021</fecha_entrega>
+                  <total_factura>42€</total_factura>
+                  <producto>
+                    <nombre>Camiseta Hollister</nombre>
+                    <referencia>CAM-001</referencia>
+                    <precio>26€</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--4-->
+              <pedido>
+                <cliente>
+                  <nombre>David</nombre>
+                  <apellidos>Izquierdo Orata</apellidos>
+                  <telefono>688532112</telefono>
+                  <dirección>
+                    <calle>Calle Francia</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28943</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>david.izquierdo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>004</numero_pedido>
+                  <fecha_compra>30/05/2021</fecha_compra>
+                  <fecha_entrega>1/06/2021</fecha_entrega>
+                  <total_factura>45€</total_factura>
+                  <producto>
+                    <nombre>Camiseta numancia</nombre>
+                    <referencia>CAM-001</referencia>
+                    <precio>45€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--5-->
+              <pedido>
+                <cliente>
+                  <nombre>Daniel</nombre>
+                  <apellidos>Tovar Barroso</apellidos>
+                  <telefono>698989855</telefono>
+                  <dirección>
+                    <calle>Calle Leganes</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28923</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>daniel.tovar@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>005</numero_pedido>
+                  <fecha_compra>6/06/2021</fecha_compra>
+                  <fecha_entrega>12/06/2021</fecha_entrega>
+                  <total_factura>20€</total_factura>
+                  <producto>
+                    <nombre>Espinilleras</nombre>
+                    <referencia>ESP-001</referencia>
+                    <precio>20€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--6-->
+              <pedido>
+                <cliente>
+                  <nombre>Carlos </nombre>
+                  <apellidos>Poza Garcia</apellidos>
+                  <telefono>688453944</telefono>
+                  <dirección>
+                    <calle>Calle Fuenlabrada</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28946</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>carlos.poza@campusfp.es</correo>
+                  <Fecha_Inclusion>7/03/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>006</numero_pedido>
+                  <fecha_compra>7/03/2021</fecha_compra>
+                  <fecha_entrega>8/03/2021</fecha_entrega>
+                  <total_factura>10€</total_factura>
+                  <producto>
+                    <nombre>Calcetines Nike</nombre>
+                    <referencia>POR-001</referencia>
+                    <precio>10€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--7-->
+              <pedido>
+                <cliente>
+                  <nombre>Daniel</nombre>
+                  <apellidos>Perea Barrios</apellidos>
+                  <telefono>688594944</telefono>
+                  <dirección>
+                    <calle>Calle Arroyo de los Combos</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28944</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>daniel.perea@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>007</numero_pedido>
+                  <fecha_compra>5/02/2021</fecha_compra>
+                  <fecha_entrega>8/02/2021</fecha_entrega>
+                  <total_factura>29€</total_factura>
+                  <producto>
+                    <nombre>Pantalón corto Nike</nombre>
+                    <referencia>PAN-001</referencia>
+                    <precio>116€</precio>
+                    <unidades>4</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--8-->
+              <pedido>
+                <cliente>
+                  <nombre>David</nombre>
+                  <apellidos>Izquierdo Orata</apellidos>
+                  <telefono>688532112</telefono>
+                  <dirección>
+                    <calle>Calle Francia</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28943</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>david.izquierdo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>008</numero_pedido>
+                  <fecha_compra>30/05/2021</fecha_compra>
+                  <fecha_entrega>1/06/2021</fecha_entrega>
+                  <total_factura>70€</total_factura>
+                  <producto>
+                    <nombre>Camiseta baloncesto</nombre>
+                    <referencia>CAB-001</referencia>
+                    <precio>70€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--9-->
+              <pedido>
+                <cliente>
+                  <nombre>Daniel</nombre>
+                  <apellidos>Perea Barrios</apellidos>
+                  <telefono>688594944</telefono>
+                  <dirección>
+                    <calle>Calle Arroyo de los Combos</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28944</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>daniel.perea@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>009</numero_pedido>
+                  <fecha_compra>5/02/2021</fecha_compra>
+                  <fecha_entrega>8/02/2021</fecha_entrega>
+                  <total_factura>105€</total_factura>
+                  <producto>
+                    <nombre>Chaqueta de entrenamiento</nombre>
+                    <referencia>CHA-001</referencia>
+                    <precio>105€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--10-->
+              <pedido>
+                <cliente>
+                  <nombre>Rodrigo</nombre>
+                  <apellidos>Pozo Sanchez</apellidos>
+                  <telefono>639494929</telefono>
+                  <dirección>
+                    <calle>Calle Huerto</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28956</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>rodrigo.pozo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>010</numero_pedido>
+                  <fecha_compra>20/05/2021</fecha_compra>
+                  <fecha_entrega>22/05/2021</fecha_entrega>
+                  <total_factura>26€</total_factura>
+                  <producto>
+                    <nombre>Camiseta deportiva</nombre>
+                    <referencia>CAM-001</referencia>
+                    <precio>26€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--11-->
+              <pedido>
+                <cliente>
+                  <nombre>Carlos </nombre>
+                  <apellidos>Poza Garcia</apellidos>
+                  <telefono>688453944</telefono>
+                  <dirección>
+                    <calle>Calle Fuenlabrada</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28946</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>carlos.poza@campusfp.es</correo>
+                  <Fecha_Inclusion>7/03/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>011</numero_pedido>
+                  <fecha_compra>7/03/2021</fecha_compra>
+                  <fecha_entrega>8/03/2021</fecha_entrega>
+                  <total_factura>10€</total_factura>
+                  <producto>
+                    <nombre>Calcetines Nike</nombre>
+                    <referencia>POR-001</referencia>
+                    <precio>10€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--12-->
+              <pedido>
+                <cliente>
+                  <nombre>Rodrigo</nombre>
+                  <apellidos>Pozo Sanchez</apellidos>
+                  <telefono>639494929</telefono>
+                  <dirección>
+                    <calle>Calle Huerto</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28956</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>rodrigo.pozo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>012</numero_pedido>
+                  <fecha_compra>20/05/2021</fecha_compra>
+                  <fecha_entrega>22/05/2021</fecha_entrega>
+                  <total_factura>56€</total_factura>
+                  <producto>
+                    <nombre>Reloj deportivo</nombre>
+                    <referencia>CAM-001</referencia>
+                    <precio>56€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+            </pedidos>
+            </trimestre1>
+            <!--TRIMESTRE 2-->
+            <trimestre2 id="2">
+            <pedidos>
+            <!--13-->
+            <pedido>
+                <cliente>
+                  <nombre>Daniel</nombre>
+                  <apellidos>Perea Barrios</apellidos>
+                  <telefono>688594944</telefono>
+                  <dirección>
+                    <calle>Calle Arroyo de los Combos</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28944</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>daniel.perea@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>013</numero_pedido>
+                  <fecha_compra>5/02/2021</fecha_compra>
+                  <fecha_entrega>8/02/2021</fecha_entrega>
+                  <total_factura>19€</total_factura>
+                  <producto>
+                    <nombre>Pantalón corto Nike</nombre>
+                    <referencia>PAN-001</referencia>
+                    <precio>19€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--14-->
+              <pedido>
+                <cliente>
+                  <nombre>Raul</nombre>
+                  <apellidos>Rodelgo Vazquez</apellidos>
+                  <telefono>688554433</telefono>
+                  <dirección>
+                    <calle>Calle Uvas</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28940</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>raul.rodelgo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>014</numero_pedido>
+                  <fecha_compra>10/03/2021</fecha_compra>
+                  <fecha_entrega>12/03/2021</fecha_entrega>
+                  <total_factura>40€</total_factura>
+                  <producto>
+                    <nombre>Balón</nombre>
+                    <referencia>BAL-001</referencia>
+                    <precio>40€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--15-->
+              <pedido>
+                <cliente>
+                  <nombre>Rodrigo</nombre>
+                  <apellidos>Pozo Sanchez</apellidos>
+                  <telefono>639494929</telefono>
+                  <dirección>
+                    <calle>Calle Huerto</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28956</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>rodrigo.pozo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>015</numero_pedido>
+                  <fecha_compra>20/05/2021</fecha_compra>
+                  <fecha_entrega>22/05/2021</fecha_entrega>
+                  <total_factura>10€</total_factura>
+                  <producto>
+                    <nombre>Calcetines Nike</nombre>
+                    <referencia>POR-001</referencia>
+                    <precio>10€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--16-->
+              <pedido>
+                <cliente>
+                  <nombre>David</nombre>
+                  <apellidos>Izquierdo Orata</apellidos>
+                  <telefono>688532112</telefono>
+                  <dirección>
+                    <calle>Calle Francia</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28943</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>david.izquierdo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>016</numero_pedido>
+                  <fecha_compra>30/05/2021</fecha_compra>
+                  <fecha_entrega>1/06/2021</fecha_entrega>
+                  <total_factura>70€</total_factura>
+                  <producto>
+                    <nombre>Camiseta baloncesto</nombre>
+                    <referencia>CAB-001</referencia>
+                    <precio>70€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--17-->
+              <pedido>
+                <cliente>
+                  <nombre>Daniel</nombre>
+                  <apellidos>Tovar Barroso</apellidos>
+                  <telefono>698989855</telefono>
+                  <dirección>
+                    <calle>Calle Leganes</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28923</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>daniel.tovar@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>017</numero_pedido>
+                  <fecha_compra>6/06/2021</fecha_compra>
+                  <fecha_entrega>12/06/2021</fecha_entrega>
+                  <total_factura>20€</total_factura>
+                  <producto>
+                    <nombre>Espinilleras</nombre>
+                    <referencia>ESP-001</referencia>
+                    <precio>20€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <!--18-->
+              <pedido>
+                <cliente>
+                  <nombre>Rodrigo</nombre>
+                  <apellidos>Pozo Sanchez</apellidos>
+                  <telefono>639494929</telefono>
+                  <dirección>
+                    <calle>Calle Huerto</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28956</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>rodrigo.pozo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>015</numero_pedido>
+                  <fecha_compra>20/05/2021</fecha_compra>
+                  <fecha_entrega>22/05/2021</fecha_entrega>
+                  <total_factura>20€</total_factura>
+                  <producto>
+                    <nombre>Balón</nombre>
+                    <referencia>BAL-001</referencia>
+                    <precio>20€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+            </pedidos>
+            </trimestre2>
+            <!--TRIMESTRE 3-->
+            <trimestre3 id="3">
+              <pedidos>
+              <pedido>
+                  <cliente>
+                    <nombre>Daniel</nombre>
+                    <apellidos>Perea Barrios</apellidos>
+                    <telefono>688594944</telefono>
+                    <dirección>
+                      <calle>Calle Arroyo de los Combos</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28944</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>daniel.perea@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>001</numero_pedido>
+                    <fecha_compra>5/02/2021</fecha_compra>
+                    <fecha_entrega>8/02/2021</fecha_entrega>
+                    <total_factura>144€</total_factura>
+                    <producto>
+                      <nombre>Botas de futbol</nombre>
+                      <referencia>BOT-001</referencia>
+                      <precio>39€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                      <nombre>Chaqueta de entrenamiento</nombre>
+                      <referencia>CHA-001</referencia>
+                      <precio>105€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+                <pedido>
+                  <cliente>
+                    <nombre>Raul</nombre>
+                    <apellidos>Rodelgo Vazquez</apellidos>
+                    <telefono>688554433</telefono>
+                    <dirección>
+                      <calle>Calle Uvas</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28940</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>raul.rodelgo@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>002</numero_pedido>
+                    <fecha_compra>10/03/2021</fecha_compra>
+                    <fecha_entrega>12/03/2021</fecha_entrega>
+                    <total_factura>90€</total_factura>
+                    <producto>
+                      <nombre>Zapatillas deportivas</nombre>
+                      <referencia>ZAP-001</referencia>
+                      <precio>90€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+                <pedido>
+                  <cliente>
+                    <nombre>Rodrigo</nombre>
+                    <apellidos>Pozo Sanchez</apellidos>
+                    <telefono>639494929</telefono>
+                    <dirección>
+                      <calle>Calle Huerto</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28956</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>rodrigo.pozo@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>003</numero_pedido>
+                    <fecha_compra>20/05/2021</fecha_compra>
+                    <fecha_entrega>22/05/2021</fecha_entrega>
+                    <total_factura>36€</total_factura>
+                    <producto>
+                      <nombre>Camiseta Hollister</nombre>
+                      <referencia>CAM-001</referencia>
+                      <precio>26€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                      <nombre>Calcetines Nike</nombre>
+                      <referencia>POR-001</referencia>
+                      <precio>10€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+                <pedido>
+                  <cliente>
+                    <nombre>David</nombre>
+                    <apellidos>Izquierdo Orata</apellidos>
+                    <telefono>688532112</telefono>
+                    <dirección>
+                      <calle>Calle Francia</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28943</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>david.izquierdo@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>004</numero_pedido>
+                    <fecha_compra>30/05/2021</fecha_compra>
+                    <fecha_entrega>1/06/2021</fecha_entrega>
+                    <total_factura>115€</total_factura>
+                    <producto>
+                      <nombre>Camiseta numancia</nombre>
+                      <referencia>CAM-001</referencia>
+                      <precio>45€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                      <nombre>Camiseta baloncesto</nombre>
+                      <referencia>CAB-001</referencia>
+                      <precio>70€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+                <pedido>
+                  <cliente>
+                    <nombre>Daniel</nombre>
+                    <apellidos>Tovar Barroso</apellidos>
+                    <telefono>698989855</telefono>
+                    <dirección>
+                      <calle>Calle Leganes</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28923</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>daniel.tovar@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>005</numero_pedido>
+                    <fecha_compra>6/06/2021</fecha_compra>
+                    <fecha_entrega>12/06/2021</fecha_entrega>
+                    <total_factura>50€</total_factura>
+                    <producto>
+                      <nombre>Espinilleras</nombre>
+                      <referencia>ESP-001</referencia>
+                      <precio>20€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                      <nombre>Disco duro externo</nombre>
+                      <referencia>DIS-001</referencia>
+                      <precio>30€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+              </pedidos>
+              </trimestre3>
+              <!--TRIMESTRE 4-->
+              <trimestre4 id="4">
+                <pedidos>
+                <pedido>
+                    <cliente>
+                      <nombre>Daniel</nombre>
+                      <apellidos>Perea Barrios</apellidos>
+                      <telefono>688594944</telefono>
+                      <dirección>
+                        <calle>Calle Arroyo de los Combos</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28944</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>daniel.perea@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>001</numero_pedido>
+                      <fecha_compra>5/02/2021</fecha_compra>
+                      <fecha_entrega>8/02/2021</fecha_entrega>
+                      <total_factura>144€</total_factura>
+                      <producto>
+                        <nombre>Botas de futbol</nombre>
+                        <referencia>BOT-001</referencia>
+                        <precio>39€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                        <nombre>Chaqueta de entrenamiento</nombre>
+                        <referencia>CHA-001</referencia>
+                        <precio>105€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                  <pedido>
+                    <cliente>
+                      <nombre>Raul</nombre>
+                      <apellidos>Rodelgo Vazquez</apellidos>
+                      <telefono>688554433</telefono>
+                      <dirección>
+                        <calle>Calle Uvas</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28940</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>raul.rodelgo@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>002</numero_pedido>
+                      <fecha_compra>10/03/2021</fecha_compra>
+                      <fecha_entrega>12/03/2021</fecha_entrega>
+                      <total_factura>90€</total_factura>
+                      <producto>
+                        <nombre>Zapatillas deportivas</nombre>
+                        <referencia>ZAP-001</referencia>
+                        <precio>90€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                  <pedido>
+                    <cliente>
+                      <nombre>Rodrigo</nombre>
+                      <apellidos>Pozo Sanchez</apellidos>
+                      <telefono>639494929</telefono>
+                      <dirección>
+                        <calle>Calle Huerto</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28956</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>rodrigo.pozo@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>003</numero_pedido>
+                      <fecha_compra>20/05/2021</fecha_compra>
+                      <fecha_entrega>22/05/2021</fecha_entrega>
+                      <total_factura>36€</total_factura>
+                      <producto>
+                        <nombre>Camiseta Hollister</nombre>
+                        <referencia>CAM-001</referencia>
+                        <precio>26€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                        <nombre>Calcetines Nike</nombre>
+                        <referencia>POR-001</referencia>
+                        <precio>10€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                  <pedido>
+                    <cliente>
+                      <nombre>David</nombre>
+                      <apellidos>Izquierdo Orata</apellidos>
+                      <telefono>688532112</telefono>
+                      <dirección>
+                        <calle>Calle Francia</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28943</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>david.izquierdo@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>004</numero_pedido>
+                      <fecha_compra>30/05/2021</fecha_compra>
+                      <fecha_entrega>1/06/2021</fecha_entrega>
+                      <total_factura>115€</total_factura>
+                      <producto>
+                        <nombre>Camiseta numancia</nombre>
+                        <referencia>CAM-001</referencia>
+                        <precio>45€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                        <nombre>Camiseta baloncesto</nombre>
+                        <referencia>CAB-001</referencia>
+                        <precio>70€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                  <pedido>
+                    <cliente>
+                      <nombre>Daniel</nombre>
+                      <apellidos>Tovar Barroso</apellidos>
+                      <telefono>698989855</telefono>
+                      <dirección>
+                        <calle>Calle Leganes</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28923</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>daniel.tovar@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>005</numero_pedido>
+                      <fecha_compra>6/06/2021</fecha_compra>
+                      <fecha_entrega>12/06/2021</fecha_entrega>
+                      <total_factura>50€</total_factura>
+                      <producto>
+                        <nombre>Espinilleras</nombre>
+                        <referencia>ESP-001</referencia>
+                        <precio>20€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                        <nombre>Disco duro externo</nombre>
+                        <referencia>DIS-001</referencia>
+                        <precio>30€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                  </pedidos>
+                </trimestre4>
+          </trimestres>
+    </anio2021>
+    <anio2022>
+      <trimestres>
+        <!--TRIMESTRE 1-->
+        <trimestre1 id="1">
+          <pedidos>
+          <pedido>
+              <cliente>
+                <nombre>Daniel</nombre>
+                <apellidos>Perea Barrios</apellidos>
+                <telefono>688594944</telefono>
+                <dirección>
+                  <calle>Calle Arroyo de los Combos</calle>
+                  <ciudad>Madrid</ciudad>
+                  <código_postal>28944</código_postal>
+                  <provincia>Madrid</provincia>
+                </dirección>
+                <correo>daniel.perea@campusfp.es</correo>
+                <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+              </cliente>
+              <detalle_pedido>
+                <numero_pedido>001</numero_pedido>
+                <fecha_compra>5/02/2021</fecha_compra>
+                <fecha_entrega>8/02/2021</fecha_entrega>
+                <total_factura>144€</total_factura>
+                <producto>
+                  <nombre>Botas de futbol</nombre>
+                  <referencia>BOT-001</referencia>
+                  <precio>39€</precio>
+                  <unidades>1</unidades>
+                </producto>
+                <producto>
+                  <nombre>Chaqueta de entrenamiento</nombre>
+                  <referencia>CHA-001</referencia>
+                  <precio>105€</precio>
+                  <unidades>1</unidades>
+                </producto>
+              </detalle_pedido>
+            </pedido>
+            <pedido>
+              <cliente>
+                <nombre>Raul</nombre>
+                <apellidos>Rodelgo Vazquez</apellidos>
+                <telefono>688554433</telefono>
+                <dirección>
+                  <calle>Calle Uvas</calle>
+                  <ciudad>Madrid</ciudad>
+                  <código_postal>28940</código_postal>
+                  <provincia>Madrid</provincia>
+                </dirección>
+                <correo>raul.rodelgo@campusfp.es</correo>
+                <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+              </cliente>
+              <detalle_pedido>
+                <numero_pedido>002</numero_pedido>
+                <fecha_compra>10/03/2021</fecha_compra>
+                <fecha_entrega>12/03/2021</fecha_entrega>
+                <total_factura>90€</total_factura>
+                <producto>
+                  <nombre>Zapatillas deportivas</nombre>
+                  <referencia>ZAP-001</referencia>
+                  <precio>90€</precio>
+                  <unidades>1</unidades>
+                </producto>
+              </detalle_pedido>
+            </pedido>
+            <pedido>
+              <cliente>
+                <nombre>Rodrigo</nombre>
+                <apellidos>Pozo Sanchez</apellidos>
+                <telefono>639494929</telefono>
+                <dirección>
+                  <calle>Calle Huerto</calle>
+                  <ciudad>Madrid</ciudad>
+                  <código_postal>28956</código_postal>
+                  <provincia>Madrid</provincia>
+                </dirección>
+                <correo>rodrigo.pozo@campusfp.es</correo>
+                <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+              </cliente>
+              <detalle_pedido>
+                <numero_pedido>003</numero_pedido>
+                <fecha_compra>20/05/2021</fecha_compra>
+                <fecha_entrega>22/05/2021</fecha_entrega>
+                <total_factura>36€</total_factura>
+                <producto>
+                  <nombre>Camiseta Hollister</nombre>
+                  <referencia>CAM-001</referencia>
+                  <precio>26€</precio>
+                  <unidades>1</unidades>
+                </producto>
+                <producto>
+                  <nombre>Calcetines Nike</nombre>
+                  <referencia>POR-001</referencia>
+                  <precio>10€</precio>
+                  <unidades>1</unidades>
+                </producto>
+              </detalle_pedido>
+            </pedido>
+            <pedido>
+              <cliente>
+                <nombre>David</nombre>
+                <apellidos>Izquierdo Orata</apellidos>
+                <telefono>688532112</telefono>
+                <dirección>
+                  <calle>Calle Francia</calle>
+                  <ciudad>Madrid</ciudad>
+                  <código_postal>28943</código_postal>
+                  <provincia>Madrid</provincia>
+                </dirección>
+                <correo>david.izquierdo@campusfp.es</correo>
+                <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+              </cliente>
+              <detalle_pedido>
+                <numero_pedido>004</numero_pedido>
+                <fecha_compra>30/05/2021</fecha_compra>
+                <fecha_entrega>1/06/2021</fecha_entrega>
+                <total_factura>115€</total_factura>
+                <producto>
+                  <nombre>Camiseta numancia</nombre>
+                  <referencia>CAM-001</referencia>
+                  <precio>45€</precio>
+                  <unidades>1</unidades>
+                </producto>
+                <producto>
+                  <nombre>Camiseta baloncesto</nombre>
+                  <referencia>CAB-001</referencia>
+                  <precio>70€</precio>
+                  <unidades>1</unidades>
+                </producto>
+              </detalle_pedido>
+            </pedido>
+            <pedido>
+              <cliente>
+                <nombre>Daniel</nombre>
+                <apellidos>Tovar Barroso</apellidos>
+                <telefono>698989855</telefono>
+                <dirección>
+                  <calle>Calle Leganes</calle>
+                  <ciudad>Madrid</ciudad>
+                  <código_postal>28923</código_postal>
+                  <provincia>Madrid</provincia>
+                </dirección>
+                <correo>daniel.tovar@campusfp.es</correo>
+                <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+              </cliente>
+              <detalle_pedido>
+                <numero_pedido>005</numero_pedido>
+                <fecha_compra>6/06/2021</fecha_compra>
+                <fecha_entrega>12/06/2021</fecha_entrega>
+                <total_factura>50€</total_factura>
+                <producto>
+                  <nombre>Espinilleras</nombre>
+                  <referencia>ESP-001</referencia>
+                  <precio>20€</precio>
+                  <unidades>1</unidades>
+                </producto>
+              </detalle_pedido>
+            </pedido>
+          </pedidos>
+          </trimestre1>
+          <!--TRIMESTRE 2-->
+          <trimestre2 id="2">
+            <pedidos>
+            <pedido>
+                <cliente>
+                  <nombre>Daniel</nombre>
+                  <apellidos>Perea Barrios</apellidos>
+                  <telefono>688594944</telefono>
+                  <dirección>
+                    <calle>Calle Arroyo de los Combos</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28944</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>daniel.perea@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>001</numero_pedido>
+                  <fecha_compra>5/02/2021</fecha_compra>
+                  <fecha_entrega>8/02/2021</fecha_entrega>
+                  <total_factura>144€</total_factura>
+                  <producto>
+                    <nombre>Botas de futbol</nombre>
+                    <referencia>BOT-001</referencia>
+                    <precio>39€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Chaqueta de entrenamiento</nombre>
+                    <referencia>CHA-001</referencia>
+                    <precio>105€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <pedido>
+                <cliente>
+                  <nombre>Raul</nombre>
+                  <apellidos>Rodelgo Vazquez</apellidos>
+                  <telefono>688554433</telefono>
+                  <dirección>
+                    <calle>Calle Uvas</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28940</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>raul.rodelgo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>002</numero_pedido>
+                  <fecha_compra>10/03/2021</fecha_compra>
+                  <fecha_entrega>12/03/2021</fecha_entrega>
+                  <total_factura>90€</total_factura>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>ZAP-001</referencia>
+                    <precio>90€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <pedido>
+                <cliente>
+                  <nombre>Rodrigo</nombre>
+                  <apellidos>Pozo Sanchez</apellidos>
+                  <telefono>639494929</telefono>
+                  <dirección>
+                    <calle>Calle Huerto</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28956</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>rodrigo.pozo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>003</numero_pedido>
+                  <fecha_compra>20/05/2021</fecha_compra>
+                  <fecha_entrega>22/05/2021</fecha_entrega>
+                  <total_factura>36€</total_factura>
+                  <producto>
+                    <nombre>Camiseta Hollister</nombre>
+                    <referencia>CAM-001</referencia>
+                    <precio>26€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Calcetines Nike</nombre>
+                    <referencia>POR-001</referencia>
+                    <precio>10€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <pedido>
+                <cliente>
+                  <nombre>David</nombre>
+                  <apellidos>Izquierdo Orata</apellidos>
+                  <telefono>688532112</telefono>
+                  <dirección>
+                    <calle>Calle Francia</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28943</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>david.izquierdo@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>004</numero_pedido>
+                  <fecha_compra>30/05/2021</fecha_compra>
+                  <fecha_entrega>1/06/2021</fecha_entrega>
+                  <total_factura>115€</total_factura>
+                  <producto>
+                    <nombre>Camiseta numancia</nombre>
+                    <referencia>CAM-001</referencia>
+                    <precio>45€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Camiseta baloncesto</nombre>
+                    <referencia>CAB-001</referencia>
+                    <precio>70€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+              <pedido>
+                <cliente>
+                  <nombre>Daniel</nombre>
+                  <apellidos>Tovar Barroso</apellidos>
+                  <telefono>698989855</telefono>
+                  <dirección>
+                    <calle>Calle Leganes</calle>
+                    <ciudad>Madrid</ciudad>
+                    <código_postal>28923</código_postal>
+                    <provincia>Madrid</provincia>
+                  </dirección>
+                  <correo>daniel.tovar@campusfp.es</correo>
+                  <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                </cliente>
+                <detalle_pedido>
+                  <numero_pedido>005</numero_pedido>
+                  <fecha_compra>6/06/2021</fecha_compra>
+                  <fecha_entrega>12/06/2021</fecha_entrega>
+                  <total_factura>50€</total_factura>
+                  <producto>
+                    <nombre>Espinilleras</nombre>
+                    <referencia>ESP-001</referencia>
+                    <precio>20€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Disco duro externo</nombre>
+                    <referencia>DIS-001</referencia>
+                    <precio>30€</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </detalle_pedido>
+              </pedido>
+            </pedidos>
+            </trimestre2>
+            <!--TRIMESTRE 3-->
+            <trimestre3 id="3">
+              <pedidos>
+              <pedido>
+                  <cliente>
+                    <nombre>Daniel</nombre>
+                    <apellidos>Perea Barrios</apellidos>
+                    <telefono>688594944</telefono>
+                    <dirección>
+                      <calle>Calle Arroyo de los Combos</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28944</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>daniel.perea@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>001</numero_pedido>
+                    <fecha_compra>5/02/2021</fecha_compra>
+                    <fecha_entrega>8/02/2021</fecha_entrega>
+                    <total_factura>144€</total_factura>
+                    <producto>
+                      <nombre>Botas de futbol</nombre>
+                      <referencia>BOT-001</referencia>
+                      <precio>39€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                      <nombre>Chaqueta de entrenamiento</nombre>
+                      <referencia>CHA-001</referencia>
+                      <precio>105€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+                <pedido>
+                  <cliente>
+                    <nombre>Raul</nombre>
+                    <apellidos>Rodelgo Vazquez</apellidos>
+                    <telefono>688554433</telefono>
+                    <dirección>
+                      <calle>Calle Uvas</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28940</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>raul.rodelgo@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>002</numero_pedido>
+                    <fecha_compra>10/03/2021</fecha_compra>
+                    <fecha_entrega>12/03/2021</fecha_entrega>
+                    <total_factura>90€</total_factura>
+                    <producto>
+                      <nombre>Zapatillas deportivas</nombre>
+                      <referencia>ZAP-001</referencia>
+                      <precio>90€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+                <pedido>
+                  <cliente>
+                    <nombre>Rodrigo</nombre>
+                    <apellidos>Pozo Sanchez</apellidos>
+                    <telefono>639494929</telefono>
+                    <dirección>
+                      <calle>Calle Huerto</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28956</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>rodrigo.pozo@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>003</numero_pedido>
+                    <fecha_compra>20/05/2021</fecha_compra>
+                    <fecha_entrega>22/05/2021</fecha_entrega>
+                    <total_factura>36€</total_factura>
+                    <producto>
+                      <nombre>Camiseta Hollister</nombre>
+                      <referencia>CAM-001</referencia>
+                      <precio>26€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                      <nombre>Calcetines Nike</nombre>
+                      <referencia>POR-001</referencia>
+                      <precio>10€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+                <pedido>
+                  <cliente>
+                    <nombre>David</nombre>
+                    <apellidos>Izquierdo Orata</apellidos>
+                    <telefono>688532112</telefono>
+                    <dirección>
+                      <calle>Calle Francia</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28943</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>david.izquierdo@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>004</numero_pedido>
+                    <fecha_compra>30/05/2021</fecha_compra>
+                    <fecha_entrega>1/06/2021</fecha_entrega>
+                    <total_factura>115€</total_factura>
+                    <producto>
+                      <nombre>Camiseta numancia</nombre>
+                      <referencia>CAM-001</referencia>
+                      <precio>45€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                      <nombre>Camiseta baloncesto</nombre>
+                      <referencia>CAB-001</referencia>
+                      <precio>70€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+                <pedido>
+                  <cliente>
+                    <nombre>Daniel</nombre>
+                    <apellidos>Tovar Barroso</apellidos>
+                    <telefono>698989855</telefono>
+                    <dirección>
+                      <calle>Calle Leganes</calle>
+                      <ciudad>Madrid</ciudad>
+                      <código_postal>28923</código_postal>
+                      <provincia>Madrid</provincia>
+                    </dirección>
+                    <correo>daniel.tovar@campusfp.es</correo>
+                    <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                  </cliente>
+                  <detalle_pedido>
+                    <numero_pedido>005</numero_pedido>
+                    <fecha_compra>6/06/2021</fecha_compra>
+                    <fecha_entrega>12/06/2021</fecha_entrega>
+                    <total_factura>50€</total_factura>
+                    <producto>
+                      <nombre>Espinilleras</nombre>
+                      <referencia>ESP-001</referencia>
+                      <precio>20€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                      <nombre>Disco duro externo</nombre>
+                      <referencia>DIS-001</referencia>
+                      <precio>30€</precio>
+                      <unidades>1</unidades>
+                    </producto>
+                  </detalle_pedido>
+                </pedido>
+              </pedidos>
+              </trimestre3>
+              <!--TRIMESTRE 4-->
+              <trimestre4 id="4">
+                <pedidos>
+                <pedido>
+                    <cliente>
+                      <nombre>Daniel</nombre>
+                      <apellidos>Perea Barrios</apellidos>
+                      <telefono>688594944</telefono>
+                      <dirección>         
+                        <calle>Calle Arroyo de los Combos</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28944</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>daniel.perea@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>001</numero_pedido>
+                      <fecha_compra>5/02/2021</fecha_compra>
+                      <fecha_entrega>8/02/2021</fecha_entrega>
+                      <total_factura>144€</total_factura>
+                      <producto>
+                        <nombre>Botas de futbol</nombre>
+                        <referencia>BOT-001</referencia>
+                        <precio>39€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                        <nombre>Chaqueta de entrenamiento</nombre>
+                        <referencia>CHA-001</referencia>
+                        <precio>105€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                  <pedido>
+                    <cliente>
+                      <nombre>Raul</nombre>
+                      <apellidos>Rodelgo Vazquez</apellidos>
+                      <telefono>688554433</telefono>
+                      <dirección>
+                        <calle>Calle Uvas</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28940</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>raul.rodelgo@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>002</numero_pedido>
+                      <fecha_compra>10/03/2021</fecha_compra>
+                      <fecha_entrega>12/03/2021</fecha_entrega>
+                      <total_factura>90€</total_factura>
+                      <producto>
+                        <nombre>Zapatillas deportivas</nombre>
+                        <referencia>ZAP-001</referencia>
+                        <precio>90€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                  <pedido>
+                    <cliente>
+                      <nombre>Rodrigo</nombre>
+                      <apellidos>Pozo Sanchez</apellidos>
+                      <telefono>639494929</telefono>
+                      <dirección>
+                        <calle>Calle Huerto</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28956</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>rodrigo.pozo@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>003</numero_pedido>
+                      <fecha_compra>20/05/2021</fecha_compra>
+                      <fecha_entrega>22/05/2021</fecha_entrega>
+                      <total_factura>36€</total_factura>
+                      <producto>
+                        <nombre>Camiseta Hollister</nombre>
+                        <referencia>CAM-001</referencia>
+                        <precio>26€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                        <nombre>Calcetines Nike</nombre>
+                        <referencia>POR-001</referencia>
+                        <precio>10€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                  <pedido>
+                    <cliente>
+                      <nombre>David</nombre>
+                      <apellidos>Izquierdo Orata</apellidos>
+                      <telefono>688532112</telefono>
+                      <dirección>
+                        <calle>Calle Francia</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28943</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>david.izquierdo@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>004</numero_pedido>
+                      <fecha_compra>30/05/2021</fecha_compra>
+                      <fecha_entrega>1/06/2021</fecha_entrega>
+                      <total_factura>115€</total_factura>
+                      <producto>
+                        <nombre>Camiseta numancia</nombre>
+                        <referencia>CAM-001</referencia>
+                        <precio>45€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                        <nombre>Camiseta baloncesto</nombre>
+                        <referencia>CAB-001</referencia>
+                        <precio>70€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                  <pedido>
+                    <cliente>
+                      <nombre>Daniel</nombre>
+                      <apellidos>Tovar Barroso</apellidos>
+                      <telefono>698989855</telefono>
+                      <dirección>
+                        <calle>Calle Leganes</calle>
+                        <ciudad>Madrid</ciudad>
+                        <código_postal>28923</código_postal>
+                        <provincia>Madrid</provincia>
+                      </dirección>
+                      <correo>daniel.tovar@campusfp.es</correo>
+                      <Fecha_Inclusion>04/02/2021</Fecha_Inclusion>
+                    </cliente>
+                    <detalle_pedido>
+                      <numero_pedido>005</numero_pedido>
+                      <fecha_compra>6/06/2021</fecha_compra>
+                      <fecha_entrega>12/06/2021</fecha_entrega>
+                      <total_factura>50€</total_factura>
+                      <producto>
+                        <nombre>Espinilleras</nombre>
+                        <referencia>ESP-001</referencia>
+                        <precio>20€</precio>
+                        <unidades>1</unidades>
+                      </producto>
+                    </detalle_pedido>
+                  </pedido>
+                </pedidos>
+                </trimestre4>
+      </trimestres>
+    </anio2022>
+  </anios>
+</pedidos>
